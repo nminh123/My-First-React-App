@@ -45,19 +45,13 @@ function App() {
               image={CORE_CONCEPTS[0].image}
             />
             <CoreConcept
-              title={CORE_CONCEPTS[1].title}
-              desc={CORE_CONCEPTS[1].desc}
-              image={CORE_CONCEPTS[1].image}
+              {...CORE_CONCEPTS[1]}
             />
             <CoreConcept
-              title={CORE_CONCEPTS[2].title}
-              desc={CORE_CONCEPTS[2].desc}
-              image={CORE_CONCEPTS[2].image}
+              {...CORE_CONCEPTS[2]}
             />
             <CoreConcept
-              title={CORE_CONCEPTS[3].title}
-              desc={CORE_CONCEPTS[3].desc}
-              image={CORE_CONCEPTS[3].image}
+              {...CORE_CONCEPTS[3]}
             />
           </ul>
         </section>
